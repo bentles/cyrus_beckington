@@ -1,0 +1,16 @@
+body
+{
+    width: 900px;
+    margin: auto;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color:black;
+}
+
+h1
+{
+    text-align:center;
+    /*width: 900px;*/
+
+
+}
