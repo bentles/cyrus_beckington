@@ -61,7 +61,9 @@
     <img src="problem.jpeg">
 
     <p>
-       You can use the normal to figure out which side of the line the points p0 and p1 are. If they're both outside the line then you can immediately reject the line segment and if they're both inside you don't need to do anything else for that iteration. To figure that out you get vectors from the point P to p0 and p1 and get the dot product of each of those with the normal vector. If the point is on the line the dot product will be 0, if it's outside it will be negative and if it's inside it will be positive.
+        NOTE: Here P is some point on the line that you chop along, Q(t). You already have two of these points: the vertices of the line segment for that edge of the shape.
+    </p>
+    <p> You can use the normal to figure out which side of the line the points p0 and p1 are. If they're both outside the line then you can immediately reject the line segment and if they're both inside you don't need to do anything else for that iteration. To figure that out you get vectors from the point P to p0 and p1 and get the dot product of each of those with the normal vector. If the point is on the line the dot product will be 0, if it's outside it will be negative and if it's inside it will be positive.
     </p>
     <img src="trivials.jpeg">
     <p>
